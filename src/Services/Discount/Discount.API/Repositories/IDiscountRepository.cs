@@ -8,7 +8,7 @@ namespace Discount.API.Repositories
         Task<Coupon> GetDiscount(string productNmae);
         Task<bool> CreateDiscount(Coupon coupon);
         Task<bool> UpdateDiscount(Coupon coupon);
-        Task<bool> DeleteDiscount(Coupon coupon);
+        Task<bool> DeleteDiscount(string productName);
 
 
     }
